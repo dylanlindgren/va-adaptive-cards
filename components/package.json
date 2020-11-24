@@ -1,0 +1,30 @@
+{
+	"name": "snc-wds-va-adaptive-cards",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"snc-wds-va-adaptive-cards"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/ui-core": "paris",
+		"@servicenow/ui-renderer-snabbdom": "paris",
+		"@servicenow/cli-archetype": "18.0.0",
+		"@servicenow/cli-component-archetype": "18.0.0",
+		"@servicenow/sass-theme": "paris",
+		"@servicenow/sass-kit": "paris",
+		"@servicenow/library-translate": "paris"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "18.0.0",
+		"@servicenow/cli-component-archetype-dev": "18.0.0"
+	}
+}
