@@ -22,7 +22,8 @@
 		"@servicenow/sass-theme": "paris",
 		"@servicenow/ui-core": "paris",
 		"@servicenow/ui-renderer-snabbdom": "paris",
-		"adaptivecards": "^2.5.0"
+		"adaptivecards": "^2.5.0",
+		"markdown-it": "^12.0.2"
 	},
 	"devDependencies": {
 		"@servicenow/cli-archetype-dev": "18.0.0",
