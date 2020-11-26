@@ -1,4 +1,7 @@
 # Adaptive Cards for Virtual Agent
+
+![](resources/va-adaptive-cards.png)
+
 This is a proof-of-concept application for using [Adaptive Cards](adaptivecards.io/) within [ServiceNow Virtual Agent](https://www.servicenow.com/products/virtual-agent.html).
 
 In the Paris release of ServiceNow, the ability to [define your own custom controls](https://docs.servicenow.com/bundle/paris-performance-analytics-and-reporting/page/administer/virtual-agent/concept/custom-controls.html) in Virtual Agent was added. This allows you to embed a Now Experience UI Framework component inside the VA interface, offering complete freedom for VA to respond with rich, interactive content.
