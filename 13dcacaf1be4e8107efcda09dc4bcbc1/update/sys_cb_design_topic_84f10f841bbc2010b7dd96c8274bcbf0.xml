@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Adaptive Card">4cf10f841bbc2010b7dd96c8274bcbed</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"87f94e70ba774503a3092bb3b3b2a87d","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"87f94e70ba774503a3092bb3b3b2a87d"}],"goals":[{"name":"primary","trigger_id":"87f94e70ba774503a3092bb3b3b2a87d","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"9d9d619a962a4e8c94e2927f93caf3b0","name":"Start"},{"type":"CustomNode","name":"Adaptive Card Response","mode":"output","generateDataFunction":"function adaptiveCardControlDataFunc() {\n  return {\n      card: JSON.parse(vaInputs.card_json)\n  };\n}","messageTranscriptFunction":"function(controlData) {\n    /* Build a message for the custom control that will be recorded in the transcript\n\n        return 'The CustomControl myCustomInputControl just rendered, with controlData: '\n            + JSON.stringify(controlData);\n   */\n\n  return \"Adaptive card displayed\"\n}\n","unsupportedDeviceMessage":{"type":"String","mode":"string","value":"Sorry, this channel is not supported"},"id":"b27eefc372514ca780b6db87385a01f0","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"08eb304ba1d042c0b77c93ab7aecc413","name":"End"}],"edges":[{"type":"Edge","source_node_id":"9d9d619a962a4e8c94e2927f93caf3b0","target_node_id":"b27eefc372514ca780b6db87385a01f0","id":"b6a9a0d4c0524054a54311a2acb430aa"},{"type":"Edge","source_node_id":"b27eefc372514ca780b6db87385a01f0","target_node_id":"08eb304ba1d042c0b77c93ab7aecc413","id":"823e74c20ee0409f8cabcf2e75b9b48e"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text"},{"type":"String","name":"card_json","id":"3fdadb43c4c4440e91931dcc94805e45","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"13dcacaf1be4e8107efcda09dc4bcbc1","library-usage":{"type":"Library","input-parameters":[{"name":"card_json","label":"card_json","default-value":"{\"type\":\"AdaptiveCard\",\"$schema\":\"http://adaptivecards.io/schemas/adaptive-card.json\",\"version\":\"1.3\",\"body\":[{\"type\":\"TextBlock\",\"text\":\"Placeholder for input-defined Adaptive Card.\",\"wrap\":true}]}","required":true,"id":"3fdadb43c4c4440e91931dcc94805e45"}],"return-values-mapping":[]},"domain":"global","topic_type":"CUSTOM_OUTPUT","channels":[],"id":"69b6116b1b68e8107efcda09dc4bcb72","name":"_PRVW__00f10f849ebc201015e4468c3cc597ec","key_phrases":[],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"design_category":"5628e7f27373230025d032e954f6a7de","library":true,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>69b6116b1b68e8107efcda09dc4bcb72</design_topic_id>
+        <name>_PRVW__00f10f849ebc201015e4468c3cc597ec</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-11-26 00:15:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>84f10f841bbc2010b7dd96c8274bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_cb_design_topic_84f10f841bbc2010b7dd96c8274bcbf0</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-11-26 00:15:11</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

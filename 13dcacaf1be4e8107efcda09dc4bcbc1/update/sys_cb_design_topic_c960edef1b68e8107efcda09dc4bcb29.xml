@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Adaptive Card Test Topic">cd60edef1b68e8107efcda09dc4bcb26</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"4f81ad5669d0460ba23bf4153e5cf7ae","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"4f81ad5669d0460ba23bf4153e5cf7ae"}],"goals":[{"name":"primary","trigger_id":"4f81ad5669d0460ba23bf4153e5cf7ae","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"6b846ec817684f4196936ea49fe5c65c","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"2e9d8e5424f04a43971d99f3da89cabd","name":"End"},{"type":"LibraryCall","library_topic_name":"Adaptive Card","library_topic_id":"a7979d6b1b68e8107efcda09dc4bcb18","parameter-mappings":[],"return-value-mappings":[],"id":"c441065f00834ec69e413c9253d6ffc5","name":"Adaptive Card","goal_id":"primary"}],"edges":[{"type":"Edge","source_node_id":"6b846ec817684f4196936ea49fe5c65c","target_node_id":"c441065f00834ec69e413c9253d6ffc5","id":"a95c1701f64a486681e83b687b186a41"},{"type":"Edge","source_node_id":"c441065f00834ec69e413c9253d6ffc5","target_node_id":"2e9d8e5424f04a43971d99f3da89cabd","id":"9868b86ca7074bbdaeac6b1d197155e5"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text"}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"13dcacaf1be4e8107efcda09dc4bcbc1","domain":"global","topic_type":"STANDARD","channels":[],"id":"6950adef1b68e8107efcda09dc4bcb4f","name":"_PRVW__8d60edef0168e8103c72d89ff781c825","key_phrases":["Adaptive Card Test Topic"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"design_category":"5628e7f27373230025d032e954f6a7de","library":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>6950adef1b68e8107efcda09dc4bcb4f</design_topic_id>
+        <name>_PRVW__8d60edef0168e8103c72d89ff781c825</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-11-24 03:52:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c960edef1b68e8107efcda09dc4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_cb_design_topic_c960edef1b68e8107efcda09dc4bcb29</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-11-24 03:52:01</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

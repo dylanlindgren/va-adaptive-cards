@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <key>Adaptive Card Test Topic</key>
+        <language>en</language>
+        <message>Adaptive Card Test Topic</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-11-24 03:51:59</sys_created_on>
+        <sys_id>1860edef1b68e8107efcda09dc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Card Test Topic</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_ui_message_1860edef1b68e8107efcda09dc4bcb90</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-11-24 03:51:59</sys_updated_on>
+    </sys_ui_message>
+</record_update>
