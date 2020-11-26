@@ -20,7 +20,7 @@ The application comes with an example conversation which you can use to see how 
 
 ### Demo Video
 
-![Demo video](resources/0-demo.mp4)
+[![YouTube Video](https://img.youtube.com/vi/FeK7bzXw4vg/0.jpg)](https://youtu.be/FeK7bzXw4vg)
 
 ### Example Conversation
 
