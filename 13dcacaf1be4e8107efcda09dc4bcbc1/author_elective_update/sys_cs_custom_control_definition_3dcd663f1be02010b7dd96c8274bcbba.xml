@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_custom_control_definition">
+    <sys_cs_custom_control_definition action="DELETE">
+        <channel>mweb</channel>
+        <sys_class_name>sys_cs_custom_control_definition</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-11-25 04:08:43</sys_created_on>
+        <sys_custom_control display_value="Adaptive Card Input">63bd263f1be02010b7dd96c8274bcbd9</sys_custom_control>
+        <sys_domain>global</sys_domain>
+        <sys_id>3dcd663f1be02010b7dd96c8274bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_cs_custom_control_definition_3dcd663f1be02010b7dd96c8274bcbba</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-11-25 04:08:43</sys_updated_on>
+        <ux_component_definition/>
+    </sys_cs_custom_control_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</application>
+        <file_path/>
+        <instance_id>379ace1fdb1918d07527d7c8f4961935</instance_id>
+        <instance_name>dl1</instance_name>
+        <name>sys_cs_custom_control_definition_3dcd663f1be02010b7dd96c8274bcbba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_custom_control_definition"><sys_cs_custom_control_definition action="INSERT_OR_UPDATE"><channel>mweb</channel><sys_class_name>sys_cs_custom_control_definition</sys_class_name><sys_created_by>dylan.lindgren</sys_created_by><sys_created_on>2020-11-25 04:08:43</sys_created_on><sys_custom_control display_value="Adaptive Card Input">63bd263f1be02010b7dd96c8274bcbd9</sys_custom_control><sys_domain>global</sys_domain><sys_id>3dcd663f1be02010b7dd96c8274bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope><sys_update_name>sys_cs_custom_control_definition_3dcd663f1be02010b7dd96c8274bcbba</sys_update_name><sys_updated_by>dylan.lindgren</sys_updated_by><sys_updated_on>2020-11-25 04:08:43</sys_updated_on><ux_component_definition/></sys_cs_custom_control_definition></record_update>]]></payload>
+        <payload_hash>-58844534</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2499d799db7820109e7271f6f39619d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-29 23:26:20</sys_created_on>
+        <sys_id>231d1351dbb820109e7271f6f396198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17616541e950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:26:20</sys_updated_on>
+        <type>Custom Control Definition</type>
+        <update_guid>6f1d1351c2b82010d99517e5c8c9dd8d</update_guid>
+        <update_guid_history>6f1d1351c2b82010d99517e5c8c9dd8d:0,84c9531d057820109800960e57ebc72c:0,40b91fd966782010d5c37e092e5393c8:625489616,a4f81f99427820103c2a1960abe049cf:0,be88df599178201019794754b9823ef0:625489616,d4979fd548782010301e4cc1699e60f3:2031922628</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-29 23:41:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_custom_control_definition">sys_cs_custom_control_definition</sys_db_object>
+        <sys_id>3a4058e5fa7c48fca3bf84079e1aae90</sys_id>
+        <sys_metadata>3dcd663f1be02010b7dd96c8274bcbba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">5564cf42e4b3466cb80fa374dd454a19</sys_scope_delete>
+        <sys_update_name>sys_cs_custom_control_definition_3dcd663f1be02010b7dd96c8274bcbba</sys_update_name>
+        <sys_update_version display_value="sys_cs_custom_control_definition_3dcd663f1be02010b7dd96c8274bcbba">231d1351dbb820109e7271f6f396198e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-29 23:41:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
