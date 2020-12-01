@@ -1,14 +1,27 @@
 {
   "development": {
     "proxy": {
-      "proxies": ["/api"]
+      "proxies": [
+        "/api",
+        "/amb",
+        "/sn_va_web_client_alert.mp3",
+        "/735f7f1c73203300e985658b4cf6a78b.iix",
+        "/images/default_virtual_agent_avatar.png"
+      ]
     }
   },
   "styles": {
-      "themes": [{
+    "themes": [
+      {
         "module": "@servicenow/sass-theme",
-        "main": ["theme.scss"],
-        "copyFiles": ["type/*", "*.scss"]
-      }]
+        "main": [
+          "theme.scss"
+        ],
+        "copyFiles": [
+          "type/*",
+          "*.scss"
+        ]
+      }
+    ]
   }
 }

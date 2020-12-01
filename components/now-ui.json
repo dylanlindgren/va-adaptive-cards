@@ -1,14 +1,7 @@
 {
 	"components": {
-	    "snc-wds-va-adaptive-cards": {
-	        "innerComponents": [],
-			"uiBuilder": {
-				"associatedTypes": ["global.core", "global.landing-page"],
-				"label": "My Component",
-				"icon": "document-outline",
-				"description": "A description of my component",
-				"category": "primitives"
-			}
+		"snc-wds-va-adaptive-card": {
+	        "innerComponents": []
 	    }
 	},
 	"scopeName": "x_snc_va_ac"

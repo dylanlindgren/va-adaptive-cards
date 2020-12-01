@@ -1,1 +1,1 @@
-import './snc-wds-va-adaptive-cards';
+import './snc-wds-va-adaptive-card';

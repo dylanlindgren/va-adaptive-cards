@@ -20,6 +20,7 @@
 		"@servicenow/library-translate": "paris",
 		"@servicenow/sass-kit": "paris",
 		"@servicenow/sass-theme": "paris",
+		"@servicenow/sdk-ci": "^1.0.8",
 		"@servicenow/ui-core": "paris",
 		"@servicenow/ui-effect-http": "^18.2.5",
 		"@servicenow/ui-renderer-snabbdom": "paris",

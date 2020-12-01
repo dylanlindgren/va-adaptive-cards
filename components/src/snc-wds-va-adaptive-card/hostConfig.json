@@ -1,0 +1,34 @@
+{
+	"fontTypes": {
+		"default": {
+			"fontFamily": "var(--now-font-family,'Source Sans Pro','Helvetica Neue',helvetica,arial,sans-serif)",
+			"fontSizes": {
+				"small": 11,
+				"default": 13,
+				"medium": 16,
+				"large": 20,
+				"extraLarge": 25
+			},
+			"fontWeights": {
+				"lighter": 200,
+				"default": 400,
+				"bolder": 600
+			}
+		},
+		"monospace": {
+			"fontFamily": "'Courier New', Courier, monospace",
+			"fontSizes": {
+				"small": 12,
+				"default": 14,
+				"medium": 17,
+				"large": 21,
+				"extraLarge": 26
+			},
+			"fontWeights": {
+				"lighter": 200,
+				"default": 400,
+				"bolder": 600
+			}
+		}
+	}
+}
