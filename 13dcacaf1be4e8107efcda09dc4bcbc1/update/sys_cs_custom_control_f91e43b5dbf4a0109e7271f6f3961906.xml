@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_custom_control">
     <sys_cs_custom_control action="INSERT_OR_UPDATE">
         <group/>
-        <name>Adaptive card</name>
+        <name>Adaptive card (response only)</name>
         <sys_class_name>sys_cs_custom_control</sys_class_name>
-        <sys_created_by>dylan.lindgren</sys_created_by>
-        <sys_created_on>2020-11-25 04:08:33</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-01 11:37:49</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>63bd263f1be02010b7dd96c8274bcbd9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Adaptive card</sys_name>
+        <sys_id>f91e43b5dbf4a0109e7271f6f3961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive card (response only)</sys_name>
         <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
-        <sys_update_name>sys_cs_custom_control_63bd263f1be02010b7dd96c8274bcbd9</sys_update_name>
+        <sys_update_name>sys_cs_custom_control_f91e43b5dbf4a0109e7271f6f3961906</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-01 11:27:23</sys_updated_on>
-        <type>input</type>
+        <sys_updated_on>2020-12-01 11:37:49</sys_updated_on>
+        <type>output</type>
     </sys_cs_custom_control>
 </record_update>

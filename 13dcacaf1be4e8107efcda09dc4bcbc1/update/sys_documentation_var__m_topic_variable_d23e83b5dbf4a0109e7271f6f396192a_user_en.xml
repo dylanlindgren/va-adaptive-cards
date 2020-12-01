@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="user" label="User" language="en" table="var__m_topic_variable_d23e83b5dbf4a0109e7271f6f396192a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user</element>
+            <help/>
+            <hint/>
+            <label>User</label>
+            <language>en</language>
+            <name>var__m_topic_variable_d23e83b5dbf4a0109e7271f6f396192a</name>
+            <plural>User</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-01 11:38:14</sys_created_on>
+            <sys_id>5e3ec3b5dbf4a0109e7271f6f3961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+            <sys_update_name>sys_documentation_var__m_topic_variable_d23e83b5dbf4a0109e7271f6f396192a_user_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-01 11:38:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

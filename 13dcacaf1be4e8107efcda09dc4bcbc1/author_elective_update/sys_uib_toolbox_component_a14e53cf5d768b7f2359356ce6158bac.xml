@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="DELETE">
+        <description>A component which allows you to embed Adaptive Cards inside of Virtual Agent</description>
+        <icon>document-outline</icon>
+        <label>Adaptive Cards for Virtual Agent</label>
+        <macroponent/>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 03:20:03</sys_created_on>
+        <sys_id>a14e53cf5d768b7f2359356ce6158bac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Cards for Virtual Agent</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_a14e53cf5d768b7f2359356ce6158bac</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 03:20:03</sys_updated_on>
+    </sys_uib_toolbox_component>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</application>
+        <file_path/>
+        <instance_id>379ace1fdb1918d07527d7c8f4961935</instance_id>
+        <instance_name>dl1</instance_name>
+        <name>sys_uib_toolbox_component_a14e53cf5d768b7f2359356ce6158bac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component"><sys_uib_toolbox_component action="INSERT_OR_UPDATE"><description>A component which allows you to embed Adaptive Cards inside of Virtual Agent</description><icon>document-outline</icon><label>Adaptive Cards for Virtual Agent</label><macroponent/><sys_class_name>sys_uib_toolbox_component</sys_class_name><sys_created_by>dylan.lindgren</sys_created_by><sys_created_on>2020-12-01 03:20:03</sys_created_on><sys_id>a14e53cf5d768b7f2359356ce6158bac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adaptive Cards for Virtual Agent</sys_name><sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope><sys_update_name>sys_uib_toolbox_component_a14e53cf5d768b7f2359356ce6158bac</sys_update_name><sys_updated_by>dylan.lindgren</sys_updated_by><sys_updated_on>2020-12-01 03:20:03</sys_updated_on></sys_uib_toolbox_component></record_update>]]></payload>
+        <payload_hash>1309185094</payload_hash>
+        <record_name>Adaptive Cards for Virtual Agent</record_name>
+        <reverted_from/>
+        <source>9d1b68801ba4a050cb39a82c274bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 11:26:44</sys_created_on>
+        <sys_id>429b83791b3ca010cb39a82c274bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761e0e06b80000001</sys_recorded_at>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 11:26:44</sys_updated_on>
+        <type>Builder Component</type>
+        <update_guid>e72cdd351474a010fb4ad8984e88c4fa</update_guid>
+        <update_guid_history>e72cdd351474a010fb4ad8984e88c4fa:-1630953802,703cdd35d474a0106801d7f0afd7bcfe:1680704019,e72cdd351474a010fb4ad8984e88c4fa:-1630953802,3f3bdd392b30a010d7ad0987317e0bb6:-1134730030,854bdd392630a0102a6824f3ce02efba:1680704019,3f3bdd392b30a010d7ad0987317e0bb6:-1134730030,258a9d759030a010fe0892f84a2ad847:-1891902965,aa8a15396630a01008d20d79f937433c:1680704019,258a9d759030a010fe0892f84a2ad847:-1891902965,a278d5f1fa74a010056cc569fe6e058a:1899947909,a378d1b55e30a010bd59bda4759f4540:1680704019,a278d5f1fa74a010056cc569fe6e058a:1899947909,a34af8fda7b0a01062fe70505a1d787b:-1783416184,895af835a3f0a010944be1dd0b54076a:1680704019,a34af8fda7b0a01062fe70505a1d787b:-1783416184,6fb5b435b9bc6010dad773bdc311c84d:-762403896,81c5f8fd1fb0a010e262520013657460:1680704019,6fb5b435b9bc6010dad773bdc311c84d:-762403896,2fb57c35a9bc6010e0c169804871d634:0,10153435babc6010e62bf8dacd869cea:0,ba05f03598bc6010f6d83013df8fee2f:-973752646,3605b03522bc60101b7e3a298d5782ee:0,a6f127d1b67c2010e780209ec0060273:1680704019,11f127d1687c20109e687c09aed0d76e:2003223445,cdf1eb9526b82010c6291b73e5c3d657:0,b02d93515eb82010077447e415903609:0,df1d135133b82010b5d28d56eac0d872:-973752646,571d1351ebb820103fd60eabf2a4db5f:0,01cb5f1da63c201018eac50f8e77c02d:1680704019,d32a935d477820102781dfeb3ebcf30b:-1361173310,d72a535def782010dab8bf2cbbe8d9fa:0,01c9931d9878201057af6c304c0791bc:0,d5b99fd95e782010106b9b056e1f6e6a:194730579,44b91fd9e6782010ebb5030280a793f4:0,0ef89f991a782010462da7a8859cb674:0,ec985399737820105325e705066b2cdd:194730579,4b8813993d782010d1ead6f156abe32a:0,f497dfd5337820103d24187e4dcba283:-1158384277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 11:26:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_toolbox_component">sys_uib_toolbox_component</sys_db_object>
+        <sys_id>1fe84520c7a44b049a91eff1ed29da44</sys_id>
+        <sys_metadata>a14e53cf5d768b7f2359356ce6158bac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Cards for Virtual Agent</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">5564cf42e4b3466cb80fa374dd454a19</sys_scope_delete>
+        <sys_update_name>sys_uib_toolbox_component_a14e53cf5d768b7f2359356ce6158bac</sys_update_name>
+        <sys_update_version display_value="sys_uib_toolbox_component_a14e53cf5d768b7f2359356ce6158bac">429b83791b3ca010cb39a82c274bcb65</sys_update_version>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 11:26:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

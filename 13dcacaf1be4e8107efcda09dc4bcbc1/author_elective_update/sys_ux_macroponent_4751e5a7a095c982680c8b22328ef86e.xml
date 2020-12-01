@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <data/>
+        <events/>
+        <extends/>
+        <interactions/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>Adaptive Cards for Virtual Agent</name>
+        <props>[]</props>
+        <root_component display_value="snc-wds-va-adaptive-cards">ba4e31665f2d08f95ff7f64c82c4ca39</root_component>
+        <root_component_config>{}</root_component_config>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 03:20:02</sys_created_on>
+        <sys_id>4751e5a7a095c982680c8b22328ef86e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Cards for Virtual Agent</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4751e5a7a095c982680c8b22328ef86e</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 03:20:02</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</application>
+        <file_path/>
+        <instance_id>379ace1fdb1918d07527d7c8f4961935</instance_id>
+        <instance_name>dl1</instance_name>
+        <name>sys_ux_macroponent_4751e5a7a095c982680c8b22328ef86e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types><component_dependencies/><composition>[]</composition><data/><events/><extends/><interactions/><layout>{}</layout><macroponent_dependencies/><name>Adaptive Cards for Virtual Agent</name><props>[]</props><root_component display_value="snc-wds-va-adaptive-cards">ba4e31665f2d08f95ff7f64c82c4ca39</root_component><root_component_config>{}</root_component_config><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>dylan.lindgren</sys_created_by><sys_created_on>2020-12-01 03:20:02</sys_created_on><sys_id>4751e5a7a095c982680c8b22328ef86e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Adaptive Cards for Virtual Agent</sys_name><sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope><sys_update_name>sys_ux_macroponent_4751e5a7a095c982680c8b22328ef86e</sys_update_name><sys_updated_by>dylan.lindgren</sys_updated_by><sys_updated_on>2020-12-01 03:20:02</sys_updated_on></sys_ux_macroponent></record_update>]]></payload>
+        <payload_hash>75779094</payload_hash>
+        <record_name>Adaptive Cards for Virtual Agent</record_name>
+        <reverted_from/>
+        <source>c0c5f8fd1bb0a010cb39a82c274bcb59</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 03:20:02</sys_created_on>
+        <sys_id>383c11391b74a010cb39a82c274bcbc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761c5071ae0000001</sys_recorded_at>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 03:20:02</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>703c11393d74a010e839283f7e3f02c2</update_guid>
+        <update_guid_history>703c11393d74a010e839283f7e3f02c2:75779094,ef2c11399474a01047057ae85dad51bd:368525507,094b5db51374a010d8914caf104ef3ca:75779094,f73b5db53f74a01059f0d4a61944b856:-3307193,768a5d756674a0108a872fa4579ea13d:75779094,298ad1392430a010b3dab7bb75a1bac9:-1069090912,2f78d5f10a74a010ab2ac997aabef58e:75779094,9e78d5f16274a010573e7e88bb3ea394:-1261117362,f85a7c796bbc60105e195cce8521f622:75779094,db4a3c79d3bc6010e830b99b0b1fb8c6:919480483,b4c5f8fd8fb0a0101696563a12545512:75779094,6bb5307527bc6010ba9c76032dd2afba:145020051,f0157435f4bc601076401a117e060327:0,7e05b035e6bc60106b61abc181adb1f1:-1353539190,d2f16f9511b820109df096bfc1de9541:75779094,4df1eb9519b82010967a84ee4e92bd5e:1869313773,992d9351a6b820104eb68d9552aade20:0,531d135115b820103c0cfe8ee72c9263:-1353539190,74cb57dd6a782010e0b165376f2d5f60:75779094,9f2a535d4c782010cbd17241e2e71ffe:1873272786,6dc9931d96782010a6dca7a6742803df:0,8cb91fd9797820103c1a78c15c3d5af7:1361794026,16f89f99a078201066142b1d7b40ca80:0,07881399e4782010a816c376cd8ee02e:1361794026,dd97dfd576782010a1607e973ea44eed:-1872528778</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-12-01 11:26:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>49e0eac470d04e2e97dfa088a9045ce9</sys_id>
+        <sys_metadata>4751e5a7a095c982680c8b22328ef86e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Adaptive Cards for Virtual Agent</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">5564cf42e4b3466cb80fa374dd454a19</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_4751e5a7a095c982680c8b22328ef86e</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_4751e5a7a095c982680c8b22328ef86e">383c11391b74a010cb39a82c274bcbc2</sys_update_version>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-12-01 11:26:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
