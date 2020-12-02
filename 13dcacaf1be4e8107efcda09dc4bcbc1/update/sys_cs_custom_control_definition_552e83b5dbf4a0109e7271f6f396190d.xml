@@ -15,6 +15,6 @@
         <sys_update_name>sys_cs_custom_control_definition_552e83b5dbf4a0109e7271f6f396190d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-01 11:37:58</sys_updated_on>
-        <ux_component_definition display_value="snc-wds-va-adaptive-card">7a20f84491ab45a59f1287c3481a0f63</ux_component_definition>
+        <ux_component_definition/>
     </sys_cs_custom_control_definition>
 </record_update>
