@@ -15,21 +15,21 @@
 	},
 	"module": "src/index.js",
 	"dependencies": {
-		"@servicenow/cli-archetype": "18.0.0",
-		"@servicenow/cli-component-archetype": "18.0.0",
-		"@servicenow/library-translate": "paris",
-		"@servicenow/sass-kit": "paris",
-		"@servicenow/sass-theme": "paris",
-		"@servicenow/sdk-ci": "^1.0.8",
-		"@servicenow/ui-core": "paris",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec",
+		"@servicenow/cli-archetype": "21.0.7",
+		"@servicenow/cli-component-archetype": "21.0.7",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/library-translate": "quebec",
 		"@servicenow/ui-effect-http": "^18.2.5",
-		"@servicenow/ui-renderer-snabbdom": "paris",
 		"adaptivecards": "^2.5.0",
 		"adaptivecards-templating": "^1.4.0",
 		"markdown-it": "^12.0.2"
 	},
 	"devDependencies": {
-		"@servicenow/cli-archetype-dev": "18.0.0",
-		"@servicenow/cli-component-archetype-dev": "18.0.0"
+		"@servicenow/cli-archetype-dev": "21.0.7",
+		"@servicenow/cli-component-archetype-dev": "21.0.7",
+		"@servicenow/library-translate": "^18.0.0"
 	}
 }
