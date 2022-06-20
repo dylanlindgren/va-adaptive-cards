@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
     <sys_ui_message action="INSERT_OR_UPDATE">
         <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
         <key>Let me get that for you...</key>
         <language>en</language>
         <message>Let me get that for you...</message>

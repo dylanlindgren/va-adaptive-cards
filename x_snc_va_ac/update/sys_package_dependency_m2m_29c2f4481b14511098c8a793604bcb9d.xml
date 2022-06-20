@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Glide Virtual Agent" source="com.glide.cs.chatbot">cb4048f61b04511098c8a793604bcb50</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-20 05:52:04</sys_created_on>
+        <sys_id>29c2f4481b14511098c8a793604bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-20 05:52:04</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
