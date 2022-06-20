@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
     <sys_cb_topic action="INSERT_OR_UPDATE">
         <applicability/>
-        <category display_value="Adaptive Card Topics">bea6b0b5dbbc60109e7271f6f39619d1</category>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>bea6b0b5dbbc60109e7271f6f39619d1</category>
         <channels/>
         <connect_queue/>
         <description>Respond with an adaptive card that waits for an action to be taken (e.g. a URL opened, or a form submitted)</description>
+        <expose_on_palette>true</expose_on_palette>
         <flexible_conversation_switching>true</flexible_conversation_switching>
         <graph>{
-  "graph_api_version": "1.0.21",
+  "graph_api_version": "1.0.39",
   "goals": {
     "primary": {
       "id": "primary",
@@ -29,35 +32,73 @@
           "parameters": [
             {
               "name": "card_data",
-              "value": "{}",
-              "checked": true,
+              "value": "",
               "id": "029f7144bb074c828f4836e895bd22e4",
-              "disabled": false,
-              "referenced": false
+              "disabled": true,
+              "referenced": true,
+              "type": "String",
+              "hint": "",
+              "required": false
             },
             {
               "name": "card_template",
-              "value": "{\"type\":\"AdaptiveCard\",\"$schema\":\"http://adaptivecards.io/schemas/adaptive-card.json\",\"version\":\"1.3\",\"body\":[{\"type\":\"TextBlock\",\"text\":\"Placeholder for Adaptive Card supplied through vaInputs.\",\"wrap\":true}]}",
+              "value": "",
               "id": "5399d6b200524522942dc959a14d02ac",
-              "checked": true,
-              "referenced": false
+              "referenced": true,
+              "type": "String",
+              "hint": "",
+              "required": true,
+              "disabled": true
+            },
+            {
+              "type": "String",
+              "value": "",
+              "id": "88cb2e8bee924604aa3cc55901df0b67",
+              "name": "card_template_closed",
+              "referenced": true,
+              "disabled": true
+            },
+            {
+              "type": "True/False",
+              "value": "false",
+              "id": "48ceaceb72504217b945a59d1e30e45e",
+              "name": "display_closed_input_control",
+              "referenced": false,
+              "disabled": true
             }
           ],
           "variableIds": [
             "029f7144bb074c828f4836e895bd22e4",
-            "5399d6b200524522942dc959a14d02ac"
+            "5399d6b200524522942dc959a14d02ac",
+            "88cb2e8bee924604aa3cc55901df0b67",
+            "48ceaceb72504217b945a59d1e30e45e"
           ]
         },
         "70815a149e0648a1abd48fff38252272": {
           "id": "70815a149e0648a1abd48fff38252272",
           "stepType": "CustomInput",
           "name": "Adaptive card",
-          "generateDataFunction": "function adaptiveCardControlDataFunc() {\n  return {\n      cardTemplate: JSON.parse(vaInputs.card_template),\n      cardData: JSON.parse(vaInputs.card_data)\n  };\n}",
+          "generateDataFunction": "function adaptiveCardControlDataFunc() {\n\n  var cardTemplate = vaInputs.card_template;\n\n  if (cardTemplate.toString() === '') {\n      cardTemplate = \"{}\";\n  }\n\n  cardTemplate = JSON.parse(cardTemplate);\n\n  var cardTemplateClosed = vaInputs.card_template_closed;\n\n  if (cardTemplateClosed.toString() === '') {\n      cardTemplateClosed = \"{}\";\n  }\n\n  cardTemplateClosed = JSON.parse(cardTemplateClosed);\n  \n  var cardData = vaInputs.card_data;\n\n  if (cardData.toString() === '') {\n      cardData = \"{}\";\n  }\n\n  cardData = JSON.parse(cardData);\n\n  var displayClosedInputControl = vaInputs.display_closed_input_control;\n\n  gs.info(vaInputs.display_closed_input_control + ' dcic ' + typeof vaInputs.display_closed_input_control)\n\n  return {\n      cardTemplate: cardTemplate,\n      cardTemplateClosed: cardTemplateClosed,\n      cardData: cardData,\n      displayClosedInputControl: displayClosedInputControl\n  };\n}",
           "messageTranscriptFunction": "function(controlData) {\n    /* Build a message for the custom control that will be recorded in the transcript\n\n        return 'The CustomControl myCustomInputControl just rendered, with controlData: '\n            + JSON.stringify(controlData);\n   */\n\n  return \"Adaptive card displayed\"\n}\n",
           "inputResponseHandlerFunction": "function(controlData, responseValue) {\n    /* Provide an input response handler function for the custom control\n\n        vaVars.script_var_1 = vaVars.script_var_1\n            + ', and I want to '\n            + responseValue.action;\n   */\n  vaVars.responseData = JSON.stringify(responseValue);\n}",
           "inputResponseMessageTranscriptFunction": "function(controlData, responseValue) {\n    /* Build a message for the custom input control that will be recorded in the transcript\n\n        return 'The CustomControl myCustomInputControl just responded with response: '\n            + JSON.stringify(responseValue)\n            + ', and with controlData: '\n            + JSON.stringify(controlData);\n    */\n    return JSON.stringify(responseValue);\n}",
           "unsupportedDeviceMessage": {
-            "value": "Sorry, this channel is not supported",
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Sorry, this channel is not supported"
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
             "mode": "simple"
           },
           "applicability": {
@@ -80,7 +121,31 @@
           "outputVariables": [
             {
               "key": "responseData",
-              "value": "{{vaVars.responseData}}",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.responseData}}",
+                        "displayValue": "vaVars➛responseData"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
               "mode": "simple",
               "disabled": true,
               "cannotBeDeleted": true,
@@ -124,17 +189,23 @@
       "id": "029f7144bb074c828f4836e895bd22e4",
       "name": "card_data",
       "label": "Card_data",
-      "defaultValue": "{}",
+      "defaultValue": "",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
     },
     "5399d6b200524522942dc959a14d02ac": {
       "id": "5399d6b200524522942dc959a14d02ac",
       "name": "card_template",
       "label": "Card_template",
-      "defaultValue": "{\"type\":\"AdaptiveCard\",\"$schema\":\"http://adaptivecards.io/schemas/adaptive-card.json\",\"version\":\"1.3\",\"body\":[{\"type\":\"TextBlock\",\"text\":\"Placeholder for Adaptive Card supplied through vaInputs.\",\"wrap\":true}]}",
+      "defaultValue": "",
       "varType": "string",
-      "category": "vaInputs"
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
     },
     "59ce2dde44034119af80c14e1e5aa29c": {
       "id": "59ce2dde44034119af80c14e1e5aa29c",
@@ -146,6 +217,28 @@
       "label": "responseData",
       "varType": "script",
       "category": "vaVars"
+    },
+    "88cb2e8bee924604aa3cc55901df0b67": {
+      "id": "88cb2e8bee924604aa3cc55901df0b67",
+      "name": "card_template_closed",
+      "label": "Card_template_closed",
+      "defaultValue": "",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
+    },
+    "48ceaceb72504217b945a59d1e30e45e": {
+      "id": "48ceaceb72504217b945a59d1e30e45e",
+      "name": "display_closed_input_control",
+      "label": "Display_closed_input_control",
+      "defaultValue": "false",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
     }
   }
 }</graph>
@@ -158,21 +251,24 @@
         <nlu_model/>
         <nlu_model_label/>
         <nlu_provider/>
+        <palette_label>Adaptive card</palette_label>
         <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id/>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-01 00:35:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>2b86b875dbbc60109e7271f6f3961983</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Adaptive card</sys_name>
         <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
         <sys_update_name>sys_cb_topic_2b86b875dbbc60109e7271f6f3961983</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-01 12:13:55</sys_updated_on>
+        <sys_updated_on>2022-06-20 05:01:39</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
         <type>CUSTOM_INPUT</type>
         <variables/>
     </sys_cb_topic>
