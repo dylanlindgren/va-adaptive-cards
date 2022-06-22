@@ -98,7 +98,7 @@ The application comes with an example topic called "Adaptive Cards Example Topic
 
 ### Demo Video
 
-PLACEHOLDER
+https://user-images.githubusercontent.com/6241518/174955551-8da8c8c7-538a-4a6c-a273-f3f4f404d436.mp4
 
 ### Example Conversation
 
