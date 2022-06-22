@@ -22,10 +22,7 @@
 		"@servicenow/sass-theme": "quebec",
 		"@servicenow/ui-core": "quebec",
 		"@servicenow/ui-effect-http": "quebec",
-		"@servicenow/ui-renderer-snabbdom": "quebec",
-		"adaptivecards": "^2.5.0",
-		"adaptivecards-templating": "^1.4.0",
-		"markdown-it": "^12.0.2"
+		"@servicenow/ui-renderer-snabbdom": "quebec"
 	},
 	"devDependencies": {
 		"@servicenow/cli-archetype-dev": "21.0.7",

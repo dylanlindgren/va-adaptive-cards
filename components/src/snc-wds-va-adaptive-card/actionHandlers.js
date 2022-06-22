@@ -1,5 +1,5 @@
 import { actionTypes } from '@servicenow/ui-core';
-import { CARD_SUBMITTED, URL_OPENED } from '../constants.js';
+import { CARD_SUBMITTED, URL_OPENED, DEP_LOADED } from '../constants.js';
 
 const { COMPONENT_BOOTSTRAPPED, COMPONENT_PROPERTY_CHANGED } = actionTypes;
 
@@ -21,6 +21,9 @@ export const actionHandlers = {
     [URL_OPENED]: function ({ action: { payload } }) {
         window.open(payload.url, payload.title || '_blank');
         updateState({ controlClosed: true });
+    },
+    [DEP_LOADED]: function ({ state, action: { payload }, updateState }) {
+        updateState({ depsLoaded: state.depsLoaded +1 });
     },
     [CARD_SUBMITTED]: function ({ action: { payload }, dispatch, updateState }) {
         updateState({ controlClosed: true });
