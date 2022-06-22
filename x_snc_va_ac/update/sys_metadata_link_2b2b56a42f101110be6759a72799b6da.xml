@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>819486182f501110be6759a72799b6cf</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_cs_custom_control_execution_plan"&gt;
+    &lt;sys_cs_custom_control_execution_plan action="INSERT_OR_UPDATE"&gt;
+        &lt;custom_control display_value="Adaptive card (response only)"&gt;f91e43b5dbf4a0109e7271f6f3961906&lt;/custom_control&gt;
+        &lt;generate_data_expression&gt;&lt;![CDATA[function adaptiveCardControlDataFunc() {
+
+  var cardTemplate = vaInputs.card_template;
+
+  if (cardTemplate.toString() === '') {
+      cardTemplate = "{}";
+  }
+
+  cardTemplate = JSON.parse(cardTemplate)
+  
+  var cardData = vaInputs.card_data;
+
+  if (cardData.toString() === '') {
+      cardData = "{}";
+  }
+
+  cardData = JSON.parse(cardData)
+
+  gs.info('cd ' + typeof cardData);
+  gs.info('ct ' + typeof cardTemplate);
+  
+  gs.info(JSON.stringify({
+      cardTemplate: cardTemplate,
+      cardData: cardData
+  }));
+
+  return {
+      cardTemplate: cardTemplate,
+      cardData: cardData
+  };
+}]]&gt;&lt;/generate_data_expression&gt;
+        &lt;input_response_handler_expression/&gt;
+        &lt;input_response_transcript_expression/&gt;
+        &lt;message_transcript_expression&gt;&lt;![CDATA[function(controlData) {
+    /* Build a message for the custom control that will be recorded in the transcript
+
+        return 'The CustomControl myCustomInputControl just rendered, with controlData: '
+            + JSON.stringify(controlData);
+   */
+
+  return "Adaptive card displayed"
+}]]&gt;&lt;/message_transcript_expression&gt;
+        &lt;secured_fdih_binding/&gt;
+        &lt;skippable_expression/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-06-21 06:27:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;819486182f501110be6759a72799b6cf&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-06-21 06:27:39&lt;/sys_updated_on&gt;
+        &lt;topic display_value="Simple adaptive card"&gt;79ae8bb5dbf4a0109e7271f6f39619d0&lt;/topic&gt;
+        &lt;topic_node_id&gt;8c286ec6f6434719b3f4d2293976acb0&lt;/topic_node_id&gt;
+        &lt;unsupported_device_message&gt;"Sorry, this channel is not supported"&lt;/unsupported_device_message&gt;
+    &lt;/sys_cs_custom_control_execution_plan&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 02:44:53</sys_created_on>
+        <sys_id>2b2b56a42f101110be6759a72799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2022-06-20 23:27:38</sys_name>
+        <sys_package display_value="Adaptive Cards for Virtual Agent" source="x_snc_va_ac">13dcacaf1be4e8107efcda09dc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adaptive Cards for Virtual Agent">13dcacaf1be4e8107efcda09dc4bcbc1</sys_scope>
+        <sys_update_name>sys_metadata_link_2b2b56a42f101110be6759a72799b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-22 02:44:53</sys_updated_on>
+        <tablename>sys_cs_custom_control_execution_plan</tablename>
+    </sys_metadata_link>
+</record_update>
