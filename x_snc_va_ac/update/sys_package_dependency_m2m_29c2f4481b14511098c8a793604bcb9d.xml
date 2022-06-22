@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Glide Virtual Agent" source="com.glide.cs.chatbot">cb4048f61b04511098c8a793604bcb50</dependency>
+        <dependency display_value="Glide Virtual Agent" source="com.glide.cs.chatbot">da910e102f501110be6759a72799b6a5</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-06-20 05:52:04</sys_created_on>

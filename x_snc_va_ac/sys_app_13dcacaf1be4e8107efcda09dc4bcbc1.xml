@@ -29,16 +29,16 @@
         <sys_created_by>dylan.lindgren</sys_created_by>
         <sys_created_on>2020-11-24 00:06:54</sys_created_on>
         <sys_id>13dcacaf1be4e8107efcda09dc4bcbc1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-06-20 05:58:20</sys_updated_on>
+        <sys_updated_on>2022-06-22 03:02:31</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="virtual_agent_admin" name="virtual_agent_admin">5b38bea3b3333200f7d1a13816a8dc12</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#b5d3eb</average_image_color>
