@@ -2,7 +2,7 @@
 
 > Easily define custom layouts & data in Virtual Agent with Adaptive Cards
 
-![](resources/va-adaptive-cards.png)
+![](resources/va-adaptive-cards-logo.png)
 
 This is an application which allows display of [Adaptive Cards](adaptivecards.io/) within [ServiceNow Virtual Agent](https://www.servicenow.com/products/virtual-agent.html) conversations.
 
