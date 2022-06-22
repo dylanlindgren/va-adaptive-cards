@@ -10,9 +10,17 @@ import '../src/index.js';
 const view = (state, { updateState }) => {
     return (
         <div>
+            <h1>Form (Closed)</h1>
+            <snc-wds-va-adaptive-card control-data={form} force-close-control={true} />
+            <h1>Flight</h1>
+            <snc-wds-va-adaptive-card control-data={flight} force-close-control={true} />
+            <h1>Flight</h1>
             <snc-wds-va-adaptive-card control-data={flight} />
+            <h1>Form</h1>
             <snc-wds-va-adaptive-card control-data={form} />
+            <h1>Simple</h1>
             <snc-wds-va-adaptive-card control-data={simple} />
+            <h1>Task</h1>
             <snc-wds-va-adaptive-card control-data={task} />
         </div>
     );
